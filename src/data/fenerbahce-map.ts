@@ -66,10 +66,47 @@ function flattenTree(node: TreeNode, parent?: string, inheritedCategory?: Catego
   ];
 }
 
-export const mapNodes = [
+const rawMapNodes: MapNode[] = [
   ...flattenTree(mapData.root as TreeNode),
   ...mapData.floating.flatMap((node) => flattenTree(node as TreeNode)),
+  {
+    id: "dinozorbahceliler",
+    label: "Dinozorbahçeliler",
+    parent: "fenerbahce",
+    importance: 4,
+    category: "nostalgia",
+    description: "Eski futbol ekollerini ve tecrübeli teknik adamları savunan camia.",
+  },
+  {
+    id: "futuristler",
+    label: "Fütüristler",
+    parent: "fenerbahce",
+    importance: 4,
+    category: "social",
+    description: "Fenerbahçe'nin geleceğine yönelik fikirler etrafında oluşan camia.",
+  },
 ];
+
+const parentheticalCamias: Record<string, string> = {
+  "Dinozorbahçeliler": "dinozorbahceliler",
+  "Fütüristler": "futuristler",
+  "Ahrazbahçeliler": "ahrazbahceliler",
+  "Alman Ekolü": "alman-ekoluculer",
+  "Balkan Lobisi": "balkan-lobisi",
+  "Brezilya Lobisi": "brezilya-lobisi",
+  "Camia Evladıcılar": "camia-evladicilar",
+  "Hırvat Lobisi": "hirvat-lobisi",
+  "Portekiz Lobisi": "portekiz-lobisi",
+};
+
+export const mapNodes = rawMapNodes.map((node) => {
+  const match = node.label.match(/^(.*?) \(([^()]+)\)$/);
+  const parent = match ? parentheticalCamias[match[2]] : undefined;
+
+  return parent && parent !== node.id
+    ? { ...node, label: match![1], parent }
+    : node;
+});
 
 const treeLinks = mapNodes.flatMap((node) =>
   node.parent ? [{ source: node.parent, target: node.id }] : [],

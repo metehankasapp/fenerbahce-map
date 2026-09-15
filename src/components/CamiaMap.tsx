@@ -13,6 +13,7 @@ const colors:Record<Category,string>={root:"#ffed00",management:"#4f70b5",coache
 const normalize=(s:string)=>s.toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 
 function XIcon(){return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.967 6.817H1.68l7.73-8.835L1.254 2.25h6.826l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>}
+function GitHubIcon(){return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.36-3.9-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.74.4-1.25.73-1.54-2.57-.3-5.28-1.29-5.28-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.16 1.18a10.97 10.97 0 0 1 5.75 0C17.03 4.93 18 5.24 18 5.24c.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.71 5.39-5.29 5.68.42.36.79 1.06.79 2.14v3.35c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>}
 
 function createLayout(source:MapNode[]):SimNode[]{
   const childCount=new Map<string,number>(); source.forEach(n=>{if(n.parent)childCount.set(n.parent,(childCount.get(n.parent)??0)+1);});
@@ -86,6 +87,7 @@ export function CamiaMap(){
     <nav className="credits" aria-label="Kaynak ve iletişim">
       <a href="https://x.com/caglarnefreti/status/2099861395701407785" target="_blank" rel="noopener noreferrer"><XIcon/><span>Referans</span><b>@caglarnefreti</b></a>
       <a href="https://x.com/5stellix8" target="_blank" rel="noopener noreferrer"><XIcon/><span>İletişim</span><b>@5stellix8</b></a>
+      <a href="https://github.com/metehankasapp/fenerbahce-map" target="_blank" rel="noopener noreferrer"><GitHubIcon/><b>GitHub</b></a>
     </nav>
   </div>;
 }
