@@ -117,10 +117,26 @@ kbd {
   display: flex;
   align-items: baseline;
   gap: 7px;
-  border: 0;
+  padding: 9px 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
   background: transparent;
   color: inherit;
   cursor: pointer;
+  transition: transform .15s, background .15s, border-color .15s, box-shadow .15s;
+}
+.ranking-toggle:hover,
+.ranking-toggle:focus-visible {
+  transform: translateY(-1px);
+  border-color: #1529522e;
+  background: #fff;
+  box-shadow: 0 7px 20px #07152f12;
+  outline: none;
+}
+.ranking-toggle:hover span,
+.ranking-toggle:focus-visible span {
+  opacity: 1;
+  color: #0b3b82;
 }
 .ranking-toggle b {
   font: 500 22px DM Mono;
