@@ -181,19 +181,34 @@ kbd {
   list-style: none;
 }
 .ranking-panel li {
+  border-bottom: 1px solid #15295212;
+}
+.ranking-panel li button {
+  width: 100%;
   display: grid;
   grid-template-columns: 24px 1fr auto;
   gap: 8px;
   align-items: center;
   padding: 9px 0;
-  border-bottom: 1px solid #15295212;
+  border: 0;
+  background: transparent;
+  color: inherit;
   font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+  transition: color .15s, transform .15s;
 }
-.ranking-panel li i {
+.ranking-panel li button:hover,
+.ranking-panel li button:focus-visible {
+  color: #0b3b82;
+  transform: translateX(3px);
+  outline: none;
+}
+.ranking-panel li button i {
   color: #516078;
   font: normal 10px DM Mono;
 }
-.ranking-panel li b {
+.ranking-panel li button b {
   color: #0b3b82;
   font: 500 12px DM Mono;
 }

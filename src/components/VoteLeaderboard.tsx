@@ -44,14 +44,18 @@ export function VoteLeaderboard() {
     .sort((a, b) => b.votes - a.votes || a.label.localeCompare(b.label, "tr")), [counts]);
   const total = Object.values(counts).reduce((sum, count) => sum + count, 0);
 
+  function focusCamia(communityId: string) {
+    window.dispatchEvent(new CustomEvent("camia-focus", { detail: communityId }));
+    setOpen(false);
+  }
+
   return <div className="vote-leaderboard">
     <button className="ranking-toggle" onClick={() => setOpen((value) => !value)} aria-expanded={open}>
       <b>{total}</b><span>oy · sıralama</span>
     </button>
     {open && <section className="ranking-panel">
       <header><h2>Camia sıralaması</h2><button onClick={() => setOpen(false)} aria-label="Kapat">×</button></header>
-      {ranking.length ? <ol>{ranking.map((node, index) => <li key={node.id}><i>{index + 1}</i><span>{node.label}</span><b>{node.votes}</b></li>)}</ol> : <p>Henüz oy kullanılmadı.</p>}
+      {ranking.length ? <ol>{ranking.map((node, index) => <li key={node.id}><button onClick={() => focusCamia(node.id)}><i>{index + 1}</i><span>{node.label}</span><b>{node.votes}</b></button></li>)}</ol> : <p>Henüz oy kullanılmadı.</p>}
     </section>}
   </div>;
 }
-
