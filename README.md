@@ -18,12 +18,10 @@ Uygulama `http://localhost:3000` adresinde açılır. Supabase değişiklikleri 
 
 Issue açabilir veya pull request gönderebilirsiniz. Camia verileri [src/data/fenerbahce-map.json](src/data/fenerbahce-map.json) dosyasındadır.
 
-## Kaynak ve iletişim
+## İletişim
 
-- Harita fikri/referansı: [@caglarnefreti](https://x.com/caglarnefreti/status/2099861395701407785)
 - İstek ve sorunlar: [@5stellix8](https://x.com/5stellix8)
 
 ## Lisans
 
 [MIT](LICENSE)
-

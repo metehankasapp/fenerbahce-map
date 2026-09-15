@@ -84,9 +84,8 @@ export function CamiaMap(){
     <div className="controls"><button onClick={()=>svgRef.current&&d3.select(svgRef.current).transition().call(zoomRef.current!.scaleBy,1.25)}>+</button><button onClick={()=>svgRef.current&&d3.select(svgRef.current).transition().call(zoomRef.current!.scaleBy,.8)}>−</button><button title="Haritayı ortala" onClick={()=>{const el=svgRef.current;if(!el)return;const scale=Math.max(.13,Math.min(el.clientWidth/W,(el.clientHeight-84)/H)*.93);d3.select(el).transition().call(zoomRef.current!.transform,d3.zoomIdentity.translate(el.clientWidth/2,el.clientHeight/2).scale(scale).translate(-W/2,-H/2));}}>⌂</button></div>
     {selected&&<aside className="detail"><button className="close" onClick={()=>{setSelected(null);if(svgRef.current)d3.select(svgRef.current).selectAll(".node").classed("selected",false);}}>×</button><span className="eyebrow">{categoryLabels[selected.category]}</span><h2>{selected.label}</h2><p>{selected.description}</p>{selected.category!=="root"&&<CommunityVote communityId={selected.id} label={selected.label}/>}<div className="rule"/><h3>Bağlı gruplar <b>{connections.length}</b></h3><ul>{connections.map(n=><li key={n.id}><i style={{background:colors[n.category]}}/>{n.label}</li>)}</ul></aside>}
     <footer><span>Boş alanda sürükle: gezin</span><span>Scroll: zoom</span><span>Node'a tıkla: detay</span></footer>
-    <nav className="credits" aria-label="Kaynak ve iletişim">
-      <a href="https://x.com/caglarnefreti/status/2099861395701407785" target="_blank" rel="noopener noreferrer"><XIcon/><span>Referans</span><b>@caglarnefreti</b></a>
-      <a href="https://x.com/5stellix8" target="_blank" rel="noopener noreferrer"><XIcon/><span>İletişim</span><b>@5stellix8</b></a>
+    <nav className="credits" aria-label="Bağlantılar">
+      <a href="https://x.com/5stellix8" target="_blank" rel="noopener noreferrer"><XIcon/><b>@5stellix8</b></a>
       <a href="https://github.com/metehankasapp/fenerbahce-map" target="_blank" rel="noopener noreferrer"><GitHubIcon/><b>GitHub</b></a>
     </nav>
   </div>;
