@@ -35,13 +35,15 @@ Deno.serve(async (request) => {
     return result;
   }, {});
 
-  const { data: existing } = await admin
+  const { data: existingRows, error: existingError } = await admin
     .from("community_votes")
     .select("community_id")
-    .eq("device_hash", deviceHash)
-    .maybeSingle();
+    .eq("device_hash", deviceHash);
+  if (existingError) return json({ error: "storage_error" }, 500);
 
-  if (request.method === "GET") return json({ communityId: existing?.community_id ?? null, counts });
+  const communityIds = existingRows.map((row) => row.community_id);
+
+  if (request.method === "GET") return json({ communityIds, counts });
   if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
 
   const authorization = request.headers.get("Authorization") ?? "";
@@ -67,7 +69,7 @@ Deno.serve(async (request) => {
   if (installation?.auth_user_id !== user.id) return json({ error: "device_session_mismatch" }, 409);
 
   const { error: voteError } = await admin.from("community_votes").insert({ device_hash: deviceHash, community_id: communityId });
-  if (voteError?.code === "23505") return json({ error: "already_voted", communityId: existing?.community_id }, 409);
+  if (voteError?.code === "23505") return json({ error: "already_voted", communityId }, 409);
   if (voteError) return json({ error: "storage_error" }, 500);
 
   return json({ communityId, count: (counts[communityId] ?? 0) + 1 }, 201);

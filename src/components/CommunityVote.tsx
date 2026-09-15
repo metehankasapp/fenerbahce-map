@@ -5,12 +5,12 @@ import { getOrCreateDeviceToken } from "@/lib/device";
 import { getSupabase } from "@/lib/supabase";
 
 type VoteState = {
-  communityId: string | null;
+  communityIds: string[];
   count: number;
 };
 
 export function CommunityVote({ communityId, label }: { communityId: string; label: string }) {
-  const [state, setState] = useState<VoteState>({ communityId: null, count: 0 });
+  const [state, setState] = useState<VoteState>({ communityIds: [], count: 0 });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
@@ -41,7 +41,7 @@ export function CommunityVote({ communityId, label }: { communityId: string; lab
       });
       if (!active) return;
       if (requestError) setError("Oy bilgisi alınamadı.");
-      else setState({ communityId: data?.communityId ?? null, count: data?.counts?.[communityId] ?? 0 });
+      else setState({ communityIds: data?.communityIds ?? [], count: data?.counts?.[communityId] ?? 0 });
       setLoading(false);
     })();
 
@@ -79,20 +79,23 @@ export function CommunityVote({ communityId, label }: { communityId: string; lab
     if (voteError) {
       console.error("Community vote failed", voteError);
       setError("Oy kaydedilemedi. Lütfen tekrar dene.");
-    } else setState({ communityId: data.communityId, count: data.count });
+    } else {
+      setState((current) => ({ communityIds: [...current.communityIds, data.communityId], count: data.count }));
+      window.dispatchEvent(new CustomEvent("community-vote-updated", { detail: { communityId, count: data.count } }));
+    }
     setLoading(false);
   }
 
   const configured = getSupabase() !== null;
-  const votedHere = state.communityId === communityId;
+  const votedHere = state.communityIds.includes(communityId);
 
   if (!configured) return null;
 
   return (
     <section className="community-vote">
       <div><strong>{state.count}</strong><span>oy kullanıldı</span></div>
-      <button disabled={loading || Boolean(state.communityId)} onClick={vote}>
-        {loading ? "Kontrol ediliyor…" : votedHere ? "Camian seçildi ✓" : state.communityId ? "Başka camia seçtin" : "Bu benim camiam"}
+      <button disabled={loading || votedHere} onClick={vote}>
+        {loading ? "Kontrol ediliyor…" : votedHere ? "Bu camiaya oy verdin ✓" : "Bu camiaya oy ver"}
       </button>
       {error && <small role="alert">{error}</small>}
       {votedHere && <small>{label} seçimin bu cihaz için kaydedildi.</small>}

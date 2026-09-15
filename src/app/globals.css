@@ -108,19 +108,84 @@ kbd {
   padding: 4px 6px;
   color: #667;
 }
-.counter {
+.vote-leaderboard {
   grid-column: 3;
   justify-self: end;
+  position: relative;
+}
+.ranking-toggle {
   display: flex;
   align-items: baseline;
   gap: 7px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
 }
-.counter b {
+.ranking-toggle b {
   font: 500 22px DM Mono;
 }
-.counter span {
+.ranking-toggle span {
   font-size: 11px;
   opacity: 0.6;
+}
+.ranking-panel {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  width: min(360px, calc(100vw - 32px));
+  max-height: min(560px, calc(100dvh - 120px));
+  overflow: auto;
+  padding: 18px;
+  border: 1px solid #15295224;
+  border-radius: 16px;
+  background: #fffdf8f5;
+  box-shadow: 0 24px 70px #07152f2b;
+  backdrop-filter: blur(18px);
+}
+.ranking-panel header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.ranking-panel h2 {
+  margin: 0;
+  font-size: 15px;
+}
+.ranking-panel header button {
+  border: 0;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+.ranking-panel ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ranking-panel li {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 9px 0;
+  border-bottom: 1px solid #15295212;
+  font-size: 12px;
+}
+.ranking-panel li i {
+  color: #516078;
+  font: normal 10px DM Mono;
+}
+.ranking-panel li b {
+  color: #0b3b82;
+  font: 500 12px DM Mono;
+}
+.ranking-panel p {
+  margin: 24px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #667085;
 }
 .graph {
   position: absolute;
@@ -424,7 +489,7 @@ footer {
     flex: 1;
   }
   .brand small,
-  .counter {
+    .vote-leaderboard {
     display: none;
   }
   .topbar form {

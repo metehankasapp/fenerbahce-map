@@ -4,6 +4,7 @@ import * as d3 from "d3";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { Category, categoryLabels, mapLinks, mapNodes, MapNode } from "@/data/fenerbahce-map";
 import { CommunityVote } from "@/components/CommunityVote";
+import { VoteLeaderboard } from "@/components/VoteLeaderboard";
 
 type SimNode = MapNode & d3.SimulationNodeDatum & { width:number; height:number; targetX:number; targetY:number; branchAngle?:number };
 type SimLink = d3.SimulationLinkDatum<SimNode> & { tree:boolean };
@@ -79,7 +80,7 @@ export function CamiaMap(){
 
   function search(e:FormEvent){e.preventDefault();const q=normalize(query.trim());if(!q)return;const match=mapNodes.find(n=>normalize(n.label).includes(q));if(!match){setHint("Eşleşme bulunamadı");return;}setSelected(match);setHint(`${match.label} bulundu`);const node=positions.current.get(match.id),el=svgRef.current;if(!node||!el)return;d3.select(el).selectAll<SVGGElement,SimNode>(".node").classed("selected",d=>d.id===match.id);d3.select(el).transition().duration(650).call(zoomRef.current!.transform,d3.zoomIdentity.translate(el.clientWidth/2,el.clientHeight/2).scale(.65).translate(-node.x!,-node.y!));}
   return <div className="map-shell">
-    <header className="topbar"><form onSubmit={search}><span>⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Alex, Ersun, Aziz, Mourinho…"/><kbd>Enter</kbd></form><div className="counter"><b>{mapNodes.length}</b><span>camia</span></div></header>
+    <header className="topbar"><form onSubmit={search}><span>⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Alex, Ersun, Aziz, Mourinho…"/><kbd>Enter</kbd></form><VoteLeaderboard/></header>
     <div className="status"><span className="live-dot"/>{hint}</div><svg ref={svgRef} className="graph" width="100%" height="100%" aria-label="Fenerbahçe camia grafiği"/>
     <div className="controls"><button onClick={()=>svgRef.current&&d3.select(svgRef.current).transition().call(zoomRef.current!.scaleBy,1.25)}>+</button><button onClick={()=>svgRef.current&&d3.select(svgRef.current).transition().call(zoomRef.current!.scaleBy,.8)}>−</button><button title="Haritayı ortala" onClick={()=>{const el=svgRef.current;if(!el)return;const scale=Math.max(.13,Math.min(el.clientWidth/W,(el.clientHeight-84)/H)*.93);d3.select(el).transition().call(zoomRef.current!.transform,d3.zoomIdentity.translate(el.clientWidth/2,el.clientHeight/2).scale(scale).translate(-W/2,-H/2));}}>⌂</button></div>
     {selected&&<aside className="detail"><button className="close" onClick={()=>{setSelected(null);if(svgRef.current)d3.select(svgRef.current).selectAll(".node").classed("selected",false);}}>×</button><span className="eyebrow">{categoryLabels[selected.category]}</span><h2>{selected.label}</h2><p>{selected.description}</p>{selected.category!=="root"&&<CommunityVote communityId={selected.id} label={selected.label}/>}<div className="rule"/><h3>Bağlı gruplar <b>{connections.length}</b></h3><ul>{connections.map(n=><li key={n.id}><i style={{background:colors[n.category]}}/>{n.label}</li>)}</ul></aside>}
