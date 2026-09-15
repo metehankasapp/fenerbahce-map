@@ -1,0 +1,1060 @@
+{
+  "version": 1,
+  "root": {
+    "id": "fenerbahce",
+    "label": "Fenerbahçe",
+    "importance": 5,
+    "category": "root",
+    "description": "1907’den bugüne camianın merkezi.",
+    "children": [
+      {
+        "id": "duz-fenerbahceliler",
+        "label": "Düz Fenerbahçeliler",
+        "importance": 4,
+        "category": "nostalgia",
+        "description": "Fenerbahçe camiasının ana kollarından biri.",
+        "children": []
+      },
+      {
+        "id": "haci-ismail-kartalcilar",
+        "label": "Hacı İsmail Kartalcılar",
+        "importance": 5,
+        "category": "coaches",
+        "description": "İsmail Kartal etrafında oluşan ana camia.",
+        "children": [
+          {
+            "id": "oldschool-isocular",
+            "label": "Oldschool İsocular",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          },
+          {
+            "id": "guclendirilmis-ismail-kartalcilar",
+            "label": "Güçlendirilmiş İsmail Kartalcılar",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          },
+          {
+            "id": "anti-azizci-ismailciler",
+            "label": "Anti-Azizci İsmailciler",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          },
+          {
+            "id": "sonradan-isocu-olanlar",
+            "label": "Sonradan İsocu Olanlar",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          },
+          {
+            "id": "portekiz-dusmanlari",
+            "label": "Portekiz Düşmanları",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          },
+          {
+            "id": "23-24-ismailcileri",
+            "label": "23/24 İsmailcileri",
+            "importance": 3,
+            "category": "coaches",
+            "description": "Hacı İsmail Kartalcılar alt topluluğu.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "emre-bellocular",
+        "label": "Emre Bellocular",
+        "importance": 2,
+        "category": "coaches",
+        "description": "Fenerbahçe merkezine doğrudan bağlı camia.",
+        "children": []
+      },
+      {
+        "id": "portekiz-lobisi",
+        "label": "Portekiz Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "description": "Portekiz futbol ekolü etrafında oluşan ana camia.",
+        "children": [
+          { "id": "conceicaocular", "label": "Conceiçaocular", "importance": 2 },
+          {
+            "id": "vitorcular",
+            "label": "Vitorcular",
+            "importance": 4,
+            "children": [
+              { "id": "kahve-editcileri", "label": "Kahve Editçileri", "importance": 2 },
+              { "id": "scout-bahceliler", "label": "Scout Bahçeliler", "importance": 2 },
+              { "id": "wolves-sevdalilari", "label": "Wolves Sevdalıları", "importance": 2 },
+              { "id": "rvp-dusmanlari", "label": "RVP Düşmanları", "importance": 2 },
+              { "id": "wonderkid-fetisistleri", "label": "Wonderkid Fetişistleri", "importance": 2 }
+            ]
+          },
+          {
+            "id": "jesuscular",
+            "label": "Jesusçular",
+            "importance": 4,
+            "children": [
+              { "id": "onde-savunma-tayfa", "label": "Önde Savunma Tayfa", "importance": 2 },
+              { "id": "ziraat-edebiyati-yapanlar", "label": "Ziraat Edebiyatı Yapanlar", "importance": 2 },
+              { "id": "avrupa-jesusculari", "label": "Avrupa Jesusçuları", "importance": 2 }
+            ]
+          },
+          {
+            "id": "mourinhocular",
+            "label": "Mourinhocular",
+            "importance": 5,
+            "children": [
+              { "id": "foticiler", "label": "Fotçiler", "importance": 2 },
+              { "id": "kuskunler", "label": "Küskünler", "importance": 2 },
+              { "id": "global-moucular", "label": "Global Moucular", "importance": 2 },
+              { "id": "kabizball-sevenler", "label": "Kabızball Sevenler (Mozoşistler)", "importance": 2 }
+            ]
+          },
+          { "id": "abel-ferreiracilar", "label": "Abel Ferreiracılar", "importance": 2 },
+          { "id": "fonsecacilar", "label": "Fonsecacılar", "importance": 2 },
+          { "id": "nuno-espirito-santocular", "label": "Nuno Espírito Santocular", "importance": 2 },
+          { "id": "jardimciler", "label": "Jardimciler", "importance": 2 },
+          { "id": "villas-boascilar", "label": "Villas-Boasçılar", "importance": 2 },
+          { "id": "fernando-santoscular", "label": "Fernando Santosçular (Gizli Jkliler)", "importance": 2 }
+        ]
+      },
+      {
+        "id": "hollanda-lobisi",
+        "label": "Hollanda Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "description": "Hollanda futbol ekolü etrafında oluşan ana camia.",
+        "children": [
+          { "id": "cocucular", "label": "Cocucular", "importance": 2 },
+          { "id": "koemancilar", "label": "Koemancılar", "importance": 2 },
+          { "id": "hiddinkciler", "label": "Hiddinkçiler (Dinozorbahçeliler)", "importance": 2 },
+          { "id": "advocaatcilar", "label": "Advocaatçılar", "importance": 2 },
+          { "id": "rvpciler", "label": "RVPciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "balkan-lobisi",
+        "label": "Balkan Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "description": "Balkan futbol ekolü etrafında oluşan ana camia.",
+        "children": [
+          {
+            "id": "yeni-nesil-balkancilar",
+            "label": "Yeni Nesil Balkancılar",
+            "importance": 4,
+            "children": [
+              { "id": "tadicciler", "label": "Tadicçiler", "importance": 2 },
+              { "id": "dzekocular", "label": "Dzekocular", "importance": 2 },
+              { "id": "livakovicciler", "label": "Livakovicçiler", "importance": 2 },
+              { "id": "sandro-zuficiler", "label": "Sandro Zuficiler", "importance": 2 }
+            ]
+          },
+          {
+            "id": "dinozorbahceli-balkancilar",
+            "label": "Dinozorbahçeli Balkancılar",
+            "importance": 4,
+            "children": [
+              { "id": "veselinovicciler", "label": "Veselinovicçiler", "importance": 2 },
+              { "id": "stankovicciler", "label": "Stankovicçiler", "importance": 2 },
+              { "id": "ivicciler", "label": "İvicçiler", "importance": 2 },
+              { "id": "kaloperovicciler", "label": "Kaloperovicçiler", "importance": 2 },
+              { "id": "baricciler", "label": "Baricçiler", "importance": 2 },
+              { "id": "geciciler", "label": "Geçiciler (Muhteremlerin yaşayan temsilcisi yok)", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "basket-tayfa",
+        "label": "Basket Tayfa",
+        "importance": 5,
+        "category": "branches",
+        "description": "Fenerbahçe basketbol topluluğu.",
+        "children": [
+          { "id": "djorjeviciler", "label": "Djordjeviciler", "importance": 2 },
+          { "id": "sarascilar", "label": "Şarascılar", "importance": 2 },
+          { "id": "obradovicciler", "label": "Obradovicçiler", "importance": 2 },
+          { "id": "spahijacilar", "label": "Spahijacılar", "importance": 2 },
+          { "id": "tanjevicciler", "label": "Tanjevicçiler", "importance": 2 },
+          { "id": "itoudisciler", "label": "Itoudisçiler", "importance": 2 },
+          { "id": "aydin-orsculer", "label": "Aydın Örsçüler", "importance": 3 },
+          { "id": "kokoskovcular", "label": "Kokoskovcular", "importance": 2 },
+          { "id": "pianigianiciler", "label": "Pianigianiciler", "importance": 2 },
+          {
+            "id": "kadin-basket-tayfa",
+            "label": "Kadın Basket Tayfa",
+            "importance": 4,
+            "children": [
+              { "id": "ratgeberciler", "label": "Ratgeberciler", "importance": 2 },
+              { "id": "winnickiciler", "label": "Winnickiciler", "importance": 2 },
+              { "id": "firat-okulcular", "label": "Fırat Okulcular", "importance": 2 },
+              { "id": "maljkovicciler", "label": "Maljkovicçiler (Balkan Lobisi)", "importance": 2 },
+              { "id": "garnierciler", "label": "Garnierciler", "importance": 2 },
+              { "id": "goksel-zerenciler", "label": "Göksel Zerenciler", "importance": 2 },
+              { "id": "zafer-kalaycioglucular", "label": "Zafer Kalaycıoğlucular", "importance": 2 },
+              { "id": "iniguezciler", "label": "İniguezçiler", "importance": 2 },
+              { "id": "dikeulakoscular", "label": "Dikeulakosçular", "importance": 2 },
+              { "id": "lapenacilar", "label": "Lapenacılar", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ersuncular",
+        "label": "Ersuncular",
+        "importance": 5,
+        "category": "coaches",
+        "description": "Ersun Yanal etrafında oluşan ana camia.",
+        "children": [
+          { "id": "presbahceliler", "label": "Presbahçeliler", "importance": 3 },
+          { "id": "chobani-orgutu", "label": "Chobani Örgütü", "importance": 3 },
+          { "id": "anti-azizci-ersuncular", "label": "Anti-Azizci Ersuncular", "importance": 3 },
+          { "id": "kuskun-ersuncular", "label": "Küskün Ersuncular", "importance": 3 },
+          { "id": "2019-ersunculari", "label": "2019 Ersuncuları", "importance": 3 },
+          { "id": "emir-yolaccilar", "label": "Emir Yolaççılar", "importance": 2 },
+          {
+            "id": "serdar-ali-celikler-teror-orgutu",
+            "label": "Serdar Ali Çelikler Terör Örgütü",
+            "importance": 4,
+            "children": [
+              { "id": "donerci-batiranlar", "label": "Dönerci Batıranlar", "importance": 2 },
+              { "id": "hoca-yiyiciler", "label": "Hoca Yiyiciler", "importance": 2 },
+              { "id": "aykut-dusmanlari", "label": "Aykut Düşmanları (Vardar Örgütü)", "importance": 2 },
+              { "id": "buvacilar", "label": "Buvacılar (Balkan Lobisi)", "importance": 2 },
+              { "id": "brendan-rodgerscilar", "label": "Brendan Rodgersçılar", "importance": 2 },
+              { "id": "rangnickciler", "label": "Rangnickçiler (Alman Ekolü)", "importance": 2 },
+              { "id": "de-zerbiciler", "label": "De Zerbiciler", "importance": 2 },
+              { "id": "klinsmanncilar", "label": "Klinsmanncılar (Alman Ekolü)", "importance": 2 },
+              { "id": "begiristainciler", "label": "Beğiristainciler (Sportif Direktör Olarak)", "importance": 2 },
+              { "id": "mustafa-denizliciler", "label": "Mustafa Denizliciler", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      { "id": "zemancilar", "label": "Zemancılar", "importance": 2, "category": "coaches" },
+      { "id": "aragonesciler", "label": "Aragonesciler (İsim Takıntılılar)", "importance": 2, "category": "coaches" },
+      { "id": "zeki-murat-goleciler", "label": "Zeki Murat Göleciler", "importance": 2, "category": "coaches" },
+      { "id": "tahir-karapinarcilar", "label": "Tahir Karapınarcılar", "importance": 2, "category": "coaches" },
+      { "id": "derbiden-derbiye-izleyenler", "label": "Derbiden Derbiye İzleyenler", "importance": 2, "category": "social" },
+      {
+        "id": "karam-tayfacilar",
+        "label": "Karam Tayfacılar (Ahrazbahçeliler)",
+        "importance": 4,
+        "category": "micro",
+        "children": [
+          { "id": "arda-turancilar", "label": "Arda Turancılar", "importance": 2 },
+          { "id": "burak-yilmazcilar", "label": "Burak Yılmazcılar", "importance": 2 },
+          { "id": "selcuk-inanclar", "label": "Selçuk İnançlılar", "importance": 2 },
+          { "id": "shakhtarcilar", "label": "Shakhtarcılar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "esporcular",
+        "label": "E-sporcular",
+        "importance": 4,
+        "category": "micro",
+        "children": [
+          { "id": "2017-worldsculer", "label": "2017 Worldsçüler", "importance": 2 },
+          { "id": "nextgenciler", "label": "Nextgenciler", "importance": 2 },
+          { "id": "emre-aksoycilar", "label": "Emre Aksoycular", "importance": 2 },
+          { "id": "arkheciler", "label": "Arkheciler", "importance": 2 },
+          { "id": "magathcilar", "label": "Magathçılar", "importance": 2 },
+          { "id": "clementciler", "label": "Clementçiler", "importance": 2 },
+          { "id": "hutterciler", "label": "Hütterciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "manciniciler",
+        "label": "Manciniçiler",
+        "importance": 4,
+        "category": "coaches",
+        "children": [
+          { "id": "sarriciler", "label": "Sarriciler", "importance": 2 },
+          { "id": "gattusocular", "label": "Gattusocular", "importance": 2 },
+          { "id": "glasnerciler", "label": "Glasnerciler", "importance": 2 },
+          { "id": "graham-pottercilar", "label": "Graham Pottercılar", "importance": 2 },
+          { "id": "schaafcilar", "label": "Schaafçılar", "importance": 2 },
+          { "id": "labbadiacilar", "label": "Labbadiacılar (Alman Ekolü)", "importance": 2 },
+          { "id": "van-bronckhorstcular", "label": "Van Bronckhorstçular", "importance": 2 },
+          { "id": "volkan-ballicilar", "label": "Volkan Ballıcılar", "importance": 2 },
+          { "id": "irfan-saraloglucular", "label": "İrfan Saraloğlucular", "importance": 2 },
+          { "id": "ali-koc-yandaslari", "label": "Ali Koç Yandaşları (Hoca Fark Etmez)", "importance": 2 },
+          { "id": "vladimir-petkovicciler", "label": "Vladimir Petkovicçiler", "importance": 2 },
+          { "id": "masa-tenisi-izleyenler", "label": "Futbolu Bırakıp Masa Tenisi İzleyenler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "priskeciler",
+        "label": "Priskeciler (GS-Prag Maçı)",
+        "importance": 4,
+        "category": "coaches",
+        "children": [
+          { "id": "shovkovskyiciler", "label": "Shovkovskyiçiler", "importance": 2 },
+          { "id": "kjaerciler", "label": "Kjaerçiler", "importance": 2 },
+          { "id": "cappellocular", "label": "Cappellocular", "importance": 2 },
+          { "id": "hureciler", "label": "Hüreciler (Alman Ekolü)", "importance": 2 },
+          { "id": "nagelsmanncilar", "label": "Nagelsmanncılar (Alman Ekolü)", "importance": 2 },
+          { "id": "heynckesciler", "label": "Heynckesçiler (Büyük İhtimal 2 Seneye Ölecek)", "importance": 2 },
+          { "id": "brancocular", "label": "Brancocular (Portekiz Lobisi)", "importance": 2 },
+          { "id": "emekli-topcu-fareleri", "label": "Emekli Topçu Çakma Fareleri", "importance": 2 },
+          { "id": "ucuran-sattiranlar", "label": "Uçuran Sattıran Fener'e Geçen Trabzonlu Kardeşcanlar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "macar-lobisi",
+        "label": "Macar Lobisi (Dinozorbahçeliler)",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          { "id": "szekelyciler", "label": "Székelyciler", "importance": 2 },
+          { "id": "molnarcilar", "label": "Molnarcılar", "importance": 2 },
+          { "id": "csernaiciler", "label": "Csernaiciler", "importance": 2 },
+          { "id": "mezolyciler", "label": "Mezölyciler", "importance": 2 },
+          { "id": "solkjaerciler", "label": "Solkjaerciler (Muhteremlerin Gizli Beşiktaşlıları)", "importance": 2 },
+          { "id": "terraneocular", "label": "Terraneocular", "importance": 2 },
+          { "id": "favreciler", "label": "Favreciler", "importance": 2 },
+          { "id": "murat-yakincilar", "label": "Murat Yakıncılar (Evliya)", "importance": 2 },
+          { "id": "roland-kochcular", "label": "Roland Kochçular", "importance": 2 }
+        ]
+      },
+      {
+        "id": "rumen-lobisi",
+        "label": "Rumen Lobisi (Dinozorbahçeliler)",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          { "id": "tripisovskyciler", "label": "Tripisovskyçiler", "importance": 2 },
+          { "id": "neestrupcular", "label": "Neestrupçular (GS-Kopenhag Maçı)", "importance": 2 },
+          { "id": "teascacilar", "label": "Teascacılar", "importance": 2 },
+          { "id": "datcucular", "label": "Datcucular", "importance": 2 },
+          { "id": "ionescucular", "label": "Ionescucular", "importance": 2 },
+          { "id": "rebrovcular", "label": "Rebrovcular", "importance": 2 }
+        ]
+      },
+      { "id": "finkciler", "label": "Finkçiler", "importance": 2, "category": "coaches" },
+      { "id": "recep-karatepeciler", "label": "Recep Karatepeciler", "importance": 2, "category": "coaches" },
+      {
+        "id": "comolliciler",
+        "label": "Comolliciler",
+        "importance": 3,
+        "category": "management",
+        "children": [
+          { "id": "comollinin-karisicilari", "label": "Comollinin Karısıcıları", "importance": 2 },
+          { "id": "bielsacilar", "label": "Bielsacılar", "importance": 2 }
+        ]
+      },
+      { "id": "osayiciler", "label": "Osayiçiler", "importance": 2, "category": "players" },
+      { "id": "chivucular", "label": "Chivucular", "importance": 2, "category": "players" },
+      {
+        "id": "su-hirsizlari",
+        "label": "Su Hırsızları",
+        "importance": 3,
+        "category": "micro",
+        "children": [
+          { "id": "zimbru-tayfa", "label": "Zimbru Tayfa", "importance": 3 }
+        ]
+      },
+      { "id": "conteci-azizciler", "label": "Conteci Azizciler", "importance": 2, "category": "management" },
+      { "id": "rui-borgesciler", "label": "Rui Borgesçiler (Portekiz Lobisi)", "importance": 2, "category": "coaches" },
+      { "id": "sadan-kalkavancilar", "label": "Şadan Kalkavancılar", "importance": 2, "category": "management" },
+      { "id": "gasperiniciler", "label": "Gasperiniçiler", "importance": 2, "category": "coaches" },
+      { "id": "hulusi-belguculer", "label": "Hulusi Belgücüler", "importance": 2, "category": "management" },
+      { "id": "sekip-mosturoglucular", "label": "Şekip Mosturoğlucular", "importance": 2, "category": "management" },
+      { "id": "thorsten-finkciler", "label": "Thorsten Finkçiler (Alman Ekolü)", "importance": 3, "category": "coaches" },
+      { "id": "besnik-hasiciler", "label": "Besnik Hasiçiler (Chobani Örgütü)", "importance": 3, "category": "coaches" },
+      {
+        "id": "arjantin-lobisi",
+        "label": "Arjantin Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          { "id": "torrenciler", "label": "Torrenciler", "importance": 2 },
+          { "id": "tamer-guneyciler", "label": "Tamer Güneyciler", "importance": 2 },
+          { "id": "rauschcular", "label": "Rauschçular", "importance": 2 },
+          { "id": "gallardocular", "label": "Gallardocular", "importance": 2 },
+          { "id": "sampaoliciler", "label": "Sampaoliciler", "importance": 2 },
+          { "id": "anselmiciler", "label": "Anselmiciler", "importance": 2 },
+          { "id": "ahrazbahceli-icardiciler", "label": "Ahrazbahçeli Icardiciler", "importance": 2 },
+          { "id": "davide-ancelotticiler", "label": "Davide Ancelotticiler", "importance": 2 },
+          { "id": "pellegriniciler", "label": "Pellegriniciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "ispanya-lobisi",
+        "label": "İspanya Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          {
+            "id": "camia-evladi-ispanyolcular",
+            "label": "Camia Evladı İspanyolcular",
+            "importance": 3,
+            "children": [
+              { "id": "asensiocular", "label": "Asensiocular", "importance": 2 },
+              { "id": "guizacilar", "label": "Güizacılar", "importance": 2 },
+              { "id": "soldadocular", "label": "Soldadocular", "importance": 2 }
+            ]
+          },
+          { "id": "setienciler", "label": "Setienciler", "importance": 2 },
+          { "id": "valverdeciler", "label": "Valverdeciler", "importance": 2 },
+          { "id": "solariciler", "label": "Solariciler", "importance": 2 },
+          { "id": "ramoscular", "label": "Ramosçular", "importance": 2 },
+          { "id": "arbeloacilar", "label": "Arbeloacılar", "importance": 2 },
+          { "id": "lopeteguiciler", "label": "Lopeteguiciler", "importance": 2 },
+          { "id": "ernesto-valverdeciler", "label": "Ernesto Valverdeciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "twitter-ahrazlari",
+        "label": "Twitter Ahrazları",
+        "importance": 5,
+        "category": "social",
+        "children": [
+          { "id": "cihan-kamerciler", "label": "Cihan Kamerciler", "importance": 2 },
+          { "id": "topcu-yeme-fareleri", "label": "Topçu Yeme Fareleri", "importance": 3 },
+          { "id": "yasin-ciravcilar", "label": "Yasin Cıravcılar", "importance": 2 },
+          { "id": "sercan-terzioglular", "label": "Sercan Terzioğlucular", "importance": 2 },
+          { "id": "ragebaitciler", "label": "Ragebaitçiler", "importance": 2 },
+          { "id": "hoca-yeme-orgutu", "label": "Hoca Yeme Örgütü", "importance": 3 },
+          { "id": "topcu-cakmaya-calisanlar", "label": "Topçu Çakmaya Çalışanlar", "importance": 3 },
+          { "id": "haluk-kaplancilar", "label": "Haluk Kaplancılar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "erkek-voleybol-tayfa",
+        "label": "Erkek Voleybol Tayfa",
+        "importance": 5,
+        "category": "branches",
+        "children": [
+          { "id": "kovaccilar", "label": "Kovaçcılar", "importance": 2 },
+          { "id": "sordylciler", "label": "Sordylciler", "importance": 2 },
+          { "id": "basicciler", "label": "Basicciler", "importance": 2 }
+        ]
+      },
+      { "id": "kenan-kocakcilar", "label": "Kenan Koçakçılar", "importance": 2, "category": "coaches" },
+      { "id": "genesiocular", "label": "Genesiocular", "importance": 2, "category": "scout" },
+      { "id": "roseniorcular", "label": "Roseniorcular", "importance": 2, "category": "coaches" },
+      { "id": "rambo-okancilar", "label": "Rambo Okancılar", "importance": 2, "category": "coaches" },
+      { "id": "skibbeciler", "label": "Skibbeciler", "importance": 2, "category": "coaches" },
+      { "id": "blanccilar", "label": "Blancçılar", "importance": 2, "category": "coaches" },
+      { "id": "marescacilar", "label": "Marescacılar", "importance": 2, "category": "coaches" },
+      { "id": "di-matteocular", "label": "Di Matteocular", "importance": 2, "category": "coaches" },
+      {
+        "id": "gs-hocasi-isteyenler",
+        "label": "GS Hocası İsteyenler (Ahrazbahçeliler)",
+        "importance": 3,
+        "category": "coaches",
+        "children": [
+          { "id": "riekerinkciler", "label": "Riekerinkçiler", "importance": 2 },
+          { "id": "hagiciler", "label": "Hagiçiler", "importance": 2 },
+          { "id": "feldkampcilar", "label": "Feldkampçılar", "importance": 2 },
+          { "id": "tudorcular", "label": "Tudorcular", "importance": 2 },
+          { "id": "prandelliciler", "label": "Prandelliciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "milli-takim-hocasi-isteyenler",
+        "label": "Milli Takım Hocası İsteyenler",
+        "importance": 4,
+        "category": "coaches",
+        "children": [
+          {
+            "id": "montellacilar",
+            "label": "Montellacılar",
+            "importance": 2,
+            "children": [
+              { "id": "azizci-montellacilar", "label": "Azizci Montellacılar", "importance": 2 }
+            ]
+          },
+          { "id": "kuntzcular", "label": "Kuntzçular", "importance": 2 },
+          { "id": "lucescucular", "label": "Lucescucular", "importance": 2 },
+          { "id": "piontekciler", "label": "Piontekçiler (Dinozorbahçeliler)", "importance": 2 }
+        ]
+      },
+      {
+        "id": "sergenciler",
+        "label": "Sergenciler",
+        "importance": 4,
+        "category": "coaches",
+        "children": [
+          { "id": "makara-tayfa", "label": "Makara Tayfa", "importance": 2 },
+          { "id": "son-sezonundan-sonra-sergenci-olanlar", "label": "Son Sezonundan Sonra Sergenci Olanlar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "camia-evladicilar",
+        "label": "Camia Evladıcılar",
+        "importance": 5,
+        "category": "coaches",
+        "children": [
+          {
+            "id": "volkancilar",
+            "label": "Volkancılar (Camia Evladıcılar)",
+            "importance": 4,
+            "children": [
+              { "id": "oldschool-volkancilar", "label": "Oldschool Volkancılar", "importance": 2 },
+              { "id": "hatayspor-sonrasi-volkanci-olanlar", "label": "Hatayspor Sonrası Volkancı Olanlar", "importance": 2 }
+            ]
+          },
+          {
+            "id": "kuytcular",
+            "label": "Kuytçular (Camia Evladıcılar)",
+            "importance": 4,
+            "children": [
+              { "id": "beerschotcular", "label": "Beerschotçular", "importance": 2 },
+              { "id": "yardimci-hoca-sonrasi-kuytcular", "label": "Yardımcı Hoca Olduktan Sonra Kuytçu Olanlar", "importance": 2 },
+              { "id": "oldschool-kuytcular", "label": "Oldschool Kuytçular", "importance": 2 }
+            ]
+          },
+          { "id": "thomas-frankcilar", "label": "Thomas Frankçılar", "importance": 2 },
+          { "id": "vincenzo-italiano-sevenler", "label": "Vincenzo Italiano Sevenler", "importance": 2 },
+          { "id": "tayfun-korkutcular", "label": "Tayfun Korkutçular", "importance": 2 },
+          { "id": "huseyin-cimsirciler", "label": "Hüseyin Çimşirciler", "importance": 2 },
+          {
+            "id": "yabanci-anadolu-hocasi-isteyenler",
+            "label": "Yabancı Anadolu Hocası İsteyenler",
+            "importance": 4,
+            "children": [
+              { "id": "sumudicacilar", "label": "Şumudicacılar", "importance": 2 },
+              { "id": "stoilovcular", "label": "Stoilovcular", "importance": 2 },
+              { "id": "gisdolcular", "label": "Gisdolcular", "importance": 2 },
+              { "id": "thomas-reisciler", "label": "Thomas Reisçiler", "importance": 2 },
+              { "id": "jakirovicciler", "label": "Jakirovicçiler", "importance": 2 },
+              { "id": "shotacilar", "label": "Şotacılar", "importance": 2 },
+              { "id": "kluivertciler", "label": "Kluivertçiler", "importance": 2 },
+              { "id": "jose-moraisciler", "label": "Jose Moraisçiler (Portekiz Lobisi)", "importance": 2 },
+              { "id": "joao-pereiracilar", "label": "João Pereiraçılar", "importance": 2 },
+              { "id": "omerovicciler", "label": "Ömerovicçiler", "importance": 2 },
+              { "id": "stanojevicciler", "label": "Stanojevicçiler", "importance": 2 },
+              { "id": "sassariniciler", "label": "Sassariniciler", "importance": 2 },
+              { "id": "leonardocular", "label": "Leonardocular (Brezilya Lobisi)", "importance": 2 },
+              { "id": "turhan-sofuoglucular", "label": "Turhan Sofuoğlucular", "importance": 2 },
+              { "id": "osieckciler", "label": "Osieckçiler", "importance": 2 },
+              { "id": "omer-kanerciler", "label": "Ömer Kanerciler", "importance": 2 },
+              { "id": "vengloscular", "label": "Venglosçular", "importance": 2 }
+            ]
+          },
+          { "id": "bulentciler", "label": "Bülentçiler", "importance": 2 },
+          { "id": "tuncaycilar", "label": "Tuncaycılar", "importance": 2 },
+          { "id": "umit-ozatcilar", "label": "Ümit Özatçılar", "importance": 2 },
+          { "id": "selcuk-sahinciler", "label": "Selçuk Şahinçiler", "importance": 2 },
+          { "id": "baroniciler", "label": "Baroniciler", "importance": 2 },
+          { "id": "roberto-carloscular", "label": "Roberto Carloscular", "importance": 2 },
+          { "id": "mert-nobreciler", "label": "Mert Nobreciler", "importance": 2 },
+          { "id": "zicocular", "label": "Zicocular", "importance": 3 },
+          { "id": "filipe-luisciler", "label": "Filipe Luisciler", "importance": 2 },
+          { "id": "serhat-akincilar", "label": "Serhat Akıncılar (Camiadan Ayrıldı)", "importance": 2 },
+          { "id": "ridvan-dilmenciler", "label": "Rıdvan Dilmenciler", "importance": 2 },
+          { "id": "mehmet-topallar", "label": "Mehmet Topallar", "importance": 2 },
+          { "id": "mert-hakancilar", "label": "Mert Hakançılar", "importance": 2 },
+          { "id": "gokhan-gonulculer", "label": "Gökhan Gönülcüler", "importance": 2 },
+          { "id": "webocular", "label": "Webocular", "importance": 2 },
+          { "id": "sowcular", "label": "Sowcular", "importance": 2 },
+          { "id": "avrupa-zicoculari", "label": "Avrupa Zicocuları", "importance": 2 },
+          { "id": "pozitif-futbol-sevenler", "label": "Pozitif Futbol Sevenler", "importance": 2 },
+          { "id": "emenikeciler", "label": "Emenikeciler", "importance": 2 },
+          { "id": "orhan-samcilar", "label": "Orhan Şamcılar", "importance": 2 },
+          { "id": "semih-senturkculer", "label": "Semih Şentürkçüler", "importance": 2 },
+          { "id": "meirelesciler", "label": "Meirelesçiler (Portekiz Lobisi)", "importance": 2 },
+          { "id": "mujdat-yetkinerciler", "label": "Müjdat Yetkinerciler", "importance": 2 },
+          { "id": "mehmet-topuzcular", "label": "Mehmet Topuzcular", "importance": 2 },
+          { "id": "delvidciler", "label": "Delvidciler", "importance": 2 },
+          { "id": "titeciler", "label": "Titeciler", "importance": 2 },
+          { "id": "abdulkerim-durmazcilar", "label": "Abdülkerim Durmazcılar", "importance": 2 },
+          { "id": "coskun-demirbakanlilar", "label": "Coşkun Demirbakanlılar", "importance": 2 },
+          { "id": "oktay-derelioglucular", "label": "Oktay Derelioğlucular", "importance": 2 },
+          { "id": "tomaschilar", "label": "Tomasçılar (Hırvat Lobisi)", "importance": 2 },
+          { "id": "yusuf-simsekciler", "label": "Yusuf Şimşekçiler", "importance": 2 },
+          { "id": "hasan-ali-kaldirimcilar", "label": "Hasan Ali Kaldırımcılar", "importance": 2 },
+          { "id": "ahmet-yildirimlar", "label": "Ahmet Yıldırımlar", "importance": 2 },
+          { "id": "murat-sahinciler", "label": "Murat Şahinçiler", "importance": 2 },
+          { "id": "engin-ipekoglucular", "label": "Engin İpekoğlucular", "importance": 2 },
+          { "id": "edersoncular", "label": "Edersoncular", "importance": 2 },
+          {
+            "id": "rustuculer",
+            "label": "Rüştücüler",
+            "importance": 3,
+            "children": [
+              { "id": "ogunculer", "label": "Oğüncüler", "importance": 2 },
+              { "id": "mirkovicciler", "label": "Mirkovicçiler (Balkan Lobisi)", "importance": 2 },
+              { "id": "metin-diyadinciler", "label": "Metin Diyadinciler", "importance": 2 },
+              { "id": "fatih-akyelciler", "label": "Fatih Akyelciler", "importance": 2 },
+              { "id": "abdullah-ercancilar", "label": "Abdullah Ercancılar", "importance": 2 }
+            ]
+          },
+          {
+            "id": "mesut-ozilciler",
+            "label": "Mesut Özilciler",
+            "importance": 4,
+            "children": [
+              { "id": "caglar-soyuncuculer", "label": "Çağlar Söyüncücüler (Şüpheli)", "importance": 2 },
+              { "id": "cenk-tosuncular", "label": "Cenk Tosuncular", "importance": 2 },
+              { "id": "mert-gunokcular", "label": "Mert Günokçular", "importance": 2 },
+              { "id": "irfan-can-kahveciciler", "label": "İrfan Can Kahveciciler", "importance": 2 },
+              { "id": "serdar-dursuncular", "label": "Serdar Dursuncular", "importance": 2 },
+              { "id": "ismail-kartal-orgutu", "label": "İsmail Kartal Örgütü", "importance": 2 }
+            ]
+          },
+          { "id": "rtebahceliler", "label": "Rtebahçeliler", "importance": 2 },
+          { "id": "ismail-kartal-dusmanlari", "label": "İsmail Kartal Düşmanları", "importance": 2 },
+          { "id": "bilal-erdogancilar", "label": "Bilal Erdoğancılar", "importance": 2 },
+          { "id": "caner-erkinciler", "label": "Caner Erkinciler", "importance": 2 },
+          { "id": "valenciacilar", "label": "Valenciacılar", "importance": 2 },
+          { "id": "ugur-boralcilar", "label": "Uğur Boralcılar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "kanteciler",
+        "label": "Kanteciler",
+        "importance": 3,
+        "category": "players",
+        "children": []
+      },
+      { "id": "guendouziciler", "label": "Guendouziçiler", "importance": 2, "category": "players" },
+      { "id": "djikucular", "label": "Djikucular", "importance": 2, "category": "players" },
+      { "id": "mendilibarcilar", "label": "Mendilibarcılar", "importance": 2, "category": "micro" },
+      { "id": "ugur-uyarcilar", "label": "Uğur Uyarcılar (Çorum Lobisi)", "importance": 2, "category": "micro" },
+      { "id": "fredciler", "label": "Fredciler (Brezilya Lobisi)", "importance": 2, "category": "players" },
+      { "id": "atilla-gerinciler", "label": "Atilla Gerinciler", "importance": 2, "category": "micro" },
+      {
+        "id": "mahmut-uslucular",
+        "label": "Mahmut Uslucular",
+        "importance": 3,
+        "category": "management",
+        "children": []
+      },
+      {
+        "id": "isim-takintililari",
+        "label": "İsim Takıntılıları",
+        "importance": 5,
+        "category": "coaches",
+        "children": [
+          { "id": "pirlocular", "label": "Pirlocular", "importance": 2 },
+          { "id": "nestacilar", "label": "Nestacılar", "importance": 2 },
+          { "id": "unal-emeryciler", "label": "Ünal Emeryciler", "importance": 2 },
+          { "id": "shevchenkocular", "label": "Shevchenkocular", "importance": 2 },
+          { "id": "gerrardcilar", "label": "Gerrardcılar", "importance": 2 },
+          { "id": "wengerciler", "label": "Wengerciler", "importance": 2 },
+          { "id": "krooscular", "label": "Kroosçular", "importance": 2 },
+          { "id": "ten-hagcilar", "label": "Ten Hagcılar", "importance": 2 },
+          { "id": "rafa-benitezciler", "label": "Rafa Benitezciler", "importance": 2 },
+          { "id": "xaviciler", "label": "Xaviciler", "importance": 2 },
+          { "id": "allegriciler", "label": "Allegriciler", "importance": 2 },
+          { "id": "mottacilar", "label": "Mottacılar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "utopikciler",
+        "label": "Ütopikçiler",
+        "importance": 5,
+        "category": "coaches",
+        "children": [
+          { "id": "surekli-yildiz-topcu-isteyenler", "label": "Sürekli Yıldız Topçu İsteyenler", "importance": 3 },
+          { "id": "zidanecilar", "label": "Zidanecılar", "importance": 2 },
+          { "id": "haramball-tayfa", "label": "Haramball Tayfa", "importance": 2 },
+          { "id": "simeoneciler", "label": "Simeoneciler", "importance": 2 },
+          { "id": "flickciler", "label": "Flickçiler", "importance": 2 },
+          { "id": "carrickciler", "label": "Carrickçiler", "importance": 2 },
+          { "id": "kompanyciler", "label": "Kompanyciler", "importance": 2 },
+          { "id": "amorimciler", "label": "Amorimciler (Portekiz Lobisi)", "importance": 2 },
+          { "id": "fergusoncular", "label": "Fergusoncular", "importance": 2 },
+          { "id": "xabi-alonsocular", "label": "Xabi Alonsocular", "importance": 2 },
+          { "id": "fabregascilar", "label": "Fabregasçılar", "importance": 2 },
+          { "id": "artetacilar", "label": "Artetacılar", "importance": 2 },
+          { "id": "ancelotticiler", "label": "Ancelotticiler", "importance": 2 },
+          { "id": "kloppcular", "label": "Kloppçular", "importance": 2 },
+          { "id": "pepciler", "label": "Pepçiler", "importance": 2 },
+          { "id": "tuchelciler", "label": "Tuchelciler", "importance": 2 },
+          { "id": "southgateciler", "label": "Southgateciler", "importance": 2 },
+          { "id": "luis-enriqueciler", "label": "Luis Enriqueciler", "importance": 2 },
+          {
+            "id": "postecogloucular",
+            "label": "Postecogloucular",
+            "importance": 3,
+            "children": [
+              { "id": "avrupa-kupasi-edebiyatcilari", "label": "Avrupa Kupası Edebiyatçıları", "importance": 2 },
+              { "id": "isim-takintili-postecogloucular", "label": "İsim Takıntılı Postecogloucular", "importance": 2 }
+            ]
+          },
+          {
+            "id": "spalletticiler",
+            "label": "Spalletticiler",
+            "importance": 3,
+            "children": [
+              { "id": "uclu-seven-spalletticiler", "label": "Üçlü Seven Spalletticiler", "importance": 2 },
+              { "id": "dortlu-oynattigini-savunanlar", "label": "Dörtlü Oynattığını Savunanlar", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "voleybol-tayfa",
+        "label": "Voleybol Tayfa",
+        "importance": 5,
+        "category": "branches",
+        "children": [
+          { "id": "ze-robertocular", "label": "Ze Robertocular (Brezilya Ekolü)", "importance": 2 },
+          { "id": "gaspariciler", "label": "Gaspariciler", "importance": 2 },
+          { "id": "bregoliciler", "label": "Bregoliciler", "importance": 2 },
+          { "id": "rezendeciler", "label": "Rezendeçiler", "importance": 2 },
+          { "id": "lang-pingciler", "label": "Lang Pingçiler", "importance": 2 },
+          { "id": "kiralyciler", "label": "Kiralyciler", "importance": 2 },
+          { "id": "terziciler", "label": "Terziciler", "importance": 2 },
+          { "id": "velascocular", "label": "Velascocular", "importance": 2 },
+          { "id": "eda-erdemciler", "label": "Eda Erdemciler (Fütüristler)", "importance": 2 },
+          { "id": "lavariniciler", "label": "Lavariniciler", "importance": 2 },
+          { "id": "guidetticiler", "label": "Guidetticiler (Hayalperestler)", "importance": 2 },
+          { "id": "yeon-koungcular", "label": "Yeon-Koungcular (Camia Evlatları)", "importance": 2 },
+          { "id": "santarelliciler", "label": "Santarelliciler", "importance": 2 },
+          { "id": "abbondanzacilar", "label": "Abbondanzacılar", "importance": 2 },
+          { "id": "martensciler", "label": "Martensçiler (GS-At Maçı)", "importance": 2 },
+          {
+            "id": "disi-kanaryalar",
+            "label": "Dişi Kanaryalar",
+            "importance": 4,
+            "children": [
+              { "id": "toschakcilar", "label": "Toschakçılar (Dinozorbahçeliler)", "importance": 2 },
+              { "id": "hamza-hamzaogluncular", "label": "Hamza Hamzaoğluncular (Ahrazbahçeliler)", "importance": 2 }
+            ]
+          },
+          {
+            "id": "tedescocular",
+            "label": "Tedescocular (Alman Ekolü)",
+            "importance": 4,
+            "children": [
+              { "id": "super-kupa-sonrasi-tedescocular", "label": "Süper Kupa Sonrası Tedescocu Olanlar", "importance": 2 },
+              { "id": "kovulduktan-sonra-tedescocular", "label": "Kovulduktan Sonra Tedescocu Olanlar", "importance": 2 },
+              { "id": "kuskun-tedescocular", "label": "Küskün Tedescocular", "importance": 2 },
+              { "id": "fatih-sultan-tedesco-editcileri", "label": "Fatih Sultan Tedesco Editçileri", "importance": 2 },
+              { "id": "sad-editciler", "label": "Sad Editçiler", "importance": 2 },
+              { "id": "aziz-geldikten-sonra-feneri-birakanlar", "label": "Aziz Yıldırım Geldikten Sonra Feneri Bırakanlar", "importance": 3 }
+            ]
+          },
+          { "id": "emre-kartalcilar", "label": "Emre Kartalcılar", "importance": 2 },
+          { "id": "yerli-hoca-dusmanlari", "label": "Yerli Hoca Düşmanları", "importance": 2 },
+          { "id": "editbahceliler", "label": "Editbahçeliler", "importance": 2 }
+        ]
+      },
+      { "id": "okan-ozkancilar", "label": "Okan Özkancılar (Vodafone Kullananlar)", "importance": 2, "category": "micro" },
+      { "id": "erol-bulutcular", "label": "Erol Bulutçular", "importance": 2, "category": "coaches" },
+      {
+        "id": "yerli-dusmanlari",
+        "label": "Yerli Düşmanları",
+        "importance": 3,
+        "category": "coaches",
+        "children": [
+          { "id": "devin-ozekciler", "label": "Devin Özekçiler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "alman-ekoluculer",
+        "label": "Alman Ekolücüler",
+        "importance": 5,
+        "category": "coaches",
+        "children": [
+          { "id": "daumcular", "label": "Daumcular", "importance": 3 },
+          { "id": "lowculer", "label": "Löwcüler", "importance": 2 },
+          { "id": "lorantcilar", "label": "Lorantçılar (6-0 Edebiyatı)", "importance": 2 },
+          { "id": "hoenessciler", "label": "Hoeneßçiler", "importance": 2 },
+          { "id": "roseciler", "label": "Roseciler", "importance": 2 },
+          { "id": "nuriciler", "label": "Nuriciler (Almanların Arasına Sızmış)", "importance": 2 },
+          { "id": "schmidtciler", "label": "Schmidtciler", "importance": 2 },
+          { "id": "jaissleciler", "label": "Jaissleciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "ahrazbahceliler",
+        "label": "Ahrazbahçeliler",
+        "importance": 5,
+        "category": "micro",
+        "children": [
+          { "id": "apo-avcilar", "label": "Apo Avcılar", "importance": 2 },
+          { "id": "terimciler", "label": "Terimciler", "importance": 2 },
+          { "id": "senolcular", "label": "Şenolcular", "importance": 2 },
+          { "id": "okanlilar", "label": "Okanlılar (Şüpheli)", "importance": 2 }
+        ]
+      },
+      {
+        "id": "brezilya-lobisi",
+        "label": "Brezilya Lobisi",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          { "id": "didiciler", "label": "Didiçiler", "importance": 2 },
+          {
+            "id": "oldschool-brezilyacilar",
+            "label": "Oldschool Brezilyacılar",
+            "importance": 3,
+            "children": [
+              { "id": "carlos-alberto-parreiracilar", "label": "Carlos Alberto Parreiracılar", "importance": 2 },
+              { "id": "lazaroniciler", "label": "Lazaroniciler", "importance": 2 }
+            ]
+          },
+          { "id": "alexciler", "label": "Alexçiler", "importance": 3 },
+          { "id": "aureliocular", "label": "Aureliocular", "importance": 2 }
+        ]
+      },
+      {
+        "id": "anadolu-irfani",
+        "label": "Anadolu İrfanı",
+        "importance": 5,
+        "category": "coaches",
+        "children": [
+          { "id": "yilmazcilar", "label": "Yılmazcılar", "importance": 2 },
+          { "id": "rizacilar", "label": "Rızacılar", "importance": 2 },
+          { "id": "cagdascilar", "label": "Çağdaşçılar", "importance": 2 },
+          { "id": "ilhancilar", "label": "İlhancılar", "importance": 2 },
+          { "id": "samiciler", "label": "Samiçiler", "importance": 2 },
+          { "id": "servetciler", "label": "Servetçiler", "importance": 2 },
+          { "id": "mesut-bakkalcilar", "label": "Mesut Bakkalcılar", "importance": 2 },
+          { "id": "hikmet-karamanlilar", "label": "Hikmet Karamanlılar", "importance": 2 },
+          { "id": "tolunay-kafkascilar", "label": "Tolunay Kafkasçılar", "importance": 2 },
+          { "id": "fatih-tekkeciler", "label": "Fatih Tekkeçiler", "importance": 2 },
+          { "id": "ismet-tasdemirciler", "label": "İsmet Taşdemirciler", "importance": 2 },
+          { "id": "irfan-buzcular", "label": "İrfan Buzcular", "importance": 2 },
+          { "id": "hakan-kelesciler", "label": "Hakan Keleşçiler", "importance": 2 },
+          { "id": "unal-karamanlilar", "label": "Ünal Karamanlılar", "importance": 2 },
+          { "id": "recep-ucarcilar", "label": "Recep Uçarcılar", "importance": 2 },
+          { "id": "alpay-ozalancilar", "label": "Alpay Özalançılar", "importance": 2 },
+          { "id": "osman-ozkoyluculer", "label": "Osman Özköylücüler", "importance": 2 },
+          { "id": "tamer-tunacilar", "label": "Tamer Tunaçılar", "importance": 2 },
+          { "id": "hami-mandiralicilar", "label": "Hami Mandıralıcılar", "importance": 2 },
+          { "id": "omer-erdogancilar", "label": "Ömer Erdoğancılar", "importance": 2 },
+          { "id": "mehmet-altiparmakcilar", "label": "Mehmet Altıparmakçılar", "importance": 2 },
+          { "id": "mustafa-resit-akcaycilar", "label": "Mustafa Reşit Akçaycılar", "importance": 2 },
+          { "id": "ertugrul-saglamcilar", "label": "Ertuğrul Sağlamcılar", "importance": 2 },
+          { "id": "yakup-koybascilar", "label": "Yakup Koybaşçılar (MB Lobisi)", "importance": 2 },
+          { "id": "samet-aybabacilar", "label": "Samet Aybabaçılar (Ahrazbahçeliler)", "importance": 2 },
+          { "id": "senol-corlucular", "label": "Şenol Çorlucular", "importance": 2 },
+          { "id": "hakan-kutlucular", "label": "Hakan Kutlucular", "importance": 2 },
+          { "id": "huseyin-eroglucular", "label": "Hüseyin Eroğlucular", "importance": 2 },
+          { "id": "onder-ozenciler", "label": "Önder Özenciler", "importance": 2 },
+          { "id": "hakan-baltacilar", "label": "Hakan Baltaçılar (Ahrazbahçeliler)", "importance": 2 },
+          { "id": "sinan-kaloglucular", "label": "Sinan Kaloğlucular", "importance": 2 },
+          { "id": "orhan-pabuccular", "label": "Orhan Pabuççular (FM Tayfa)", "importance": 2 },
+          { "id": "senol-canlilar", "label": "Şenol Canlılar", "importance": 2 },
+          { "id": "osman-zeki-korkmazcilar", "label": "Osman Zeki Korkmazcılar", "importance": 2 },
+          { "id": "mustafa-kaplanlilar", "label": "Mustafa Kaplanlılar (Ankaralılar)", "importance": 2 },
+          { "id": "orhan-akcilar", "label": "Orhan Akçılar", "importance": 2 },
+          { "id": "burhan-eserciler", "label": "Burhan Eşerciler", "importance": 2 },
+          { "id": "olcay-demirciler", "label": "Olcay Demirciler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "hirvat-lobisi",
+        "label": "Hırvat Lobisi (Balkancılar)",
+        "importance": 5,
+        "category": "countries",
+        "children": [
+          { "id": "slaven-bilicciler", "label": "Slaven Bilicçiler", "importance": 2 },
+          { "id": "prosineckiciler", "label": "Prosineckiciler", "importance": 2 },
+          { "id": "niko-kovaccilar", "label": "Niko Kovacçılar", "importance": 2 },
+          { "id": "bjelicacilar", "label": "Bjelicacılar", "importance": 2 },
+          { "id": "dalicciler", "label": "Dalicçiler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "saran-lobisi",
+        "label": "Saran Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "forvet-almadi-diye-kusenler", "label": "Forvet Almadı Diye Küsenler", "importance": 2 },
+          { "id": "sonradan-saranci-olanlar", "label": "Sonradan Sarancı Olanlar", "importance": 2 },
+          { "id": "hepinize-yeterim-tayfa", "label": "Hepinize Yeterim Tayfa", "importance": 2 },
+          { "id": "ela-rumeysa-cebeci", "label": "Ela Rümeysa Cebeci", "importance": 2 },
+          { "id": "kante-guendouzi-sarancilari", "label": "Kante-Guendouzi'den Dolayı Sarancı Olanlar", "importance": 2 },
+          { "id": "eski-saran-lobisi", "label": "Eski Saran Lobisi", "importance": 2 },
+          { "id": "conteci-sarancilar", "label": "Conteci Sarancılar", "importance": 2 },
+          { "id": "super-kupadan-dolayi-sarancilar", "label": "Süper Kupadan Dolayı Sarancı Olanlar", "importance": 2 },
+          { "id": "tedescocu-sarancilar", "label": "Tedescocu Sarancılar", "importance": 2 },
+          { "id": "aziz-dusmani-sarancilar", "label": "Aziz Düşmanı Sarancılar", "importance": 2 },
+          { "id": "ertan-torunogullaricilar", "label": "Ertan Torunoğullarıcılar", "importance": 2 }
+        ]
+      },
+      {
+        "id": "koc-lobisi",
+        "label": "Koç Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "mason-koclar", "label": "Mason Koçlar", "importance": 2 },
+          { "id": "chobaniciler", "label": "Chobaniciler", "importance": 2 },
+          { "id": "hardcore-aliciler", "label": "Hardcore Aliciler", "importance": 2 },
+          { "id": "sonradan-ali-koccu-olanlar", "label": "Sonradan Ali Koççu Olanlar", "importance": 2 },
+          { "id": "aziz-dusmanlari", "label": "Aziz Düşmanları", "importance": 2 },
+          { "id": "borc-kapatti-diyenler", "label": "Borç Kapattı Diyenler", "importance": 2 },
+          { "id": "viski-sevenler", "label": "Viski Sevenler", "importance": 2 },
+          { "id": "kerim-rahmi-koccular", "label": "Kerim Rahmi Koççular (Fütüristler)", "importance": 2 },
+          { "id": "tedescocu-koccular", "label": "Tedescocu Koççular", "importance": 2 },
+          {
+            "id": "ulker-lobisi",
+            "label": "Ülker Lobisi",
+            "importance": 3,
+            "children": [
+              { "id": "murat-ulkerciler", "label": "Murat Ülkerciler", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aziz-yildirim-lobisi",
+        "label": "Aziz Yıldırım Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          {
+            "id": "yaz-yildirimcilar",
+            "label": "Yaz Yıldırımcılar (Fütüristler)",
+            "importance": 3,
+            "children": [
+              { "id": "nostalji-tayfa", "label": "Nostalji Tayfa", "importance": 2 },
+              { "id": "oguz-cetinciler", "label": "Oğuz Çetinciler", "importance": 2 },
+              { "id": "eski-fener-editcileri", "label": "Eski Fener Editçileri", "importance": 2 }
+            ]
+          },
+          { "id": "baris-gokturk-lobisi", "label": "Barış Göktürk Lobisi", "importance": 2 },
+          { "id": "nihat-ozdemirciler", "label": "Nihat Özdemirciler (LİMAK'tan Fonlananlar)", "importance": 2 },
+          {
+            "id": "aykutcular",
+            "label": "Aykutçular",
+            "importance": 5,
+            "children": [
+              { "id": "dinozorbahceli-aykutcular", "label": "Dinozorbahçeli Aykutçular", "importance": 2 },
+              { "id": "yatay-futbol-sevenler", "label": "Yatay Futbol Sevenler", "importance": 2 },
+              { "id": "kuskun-aykutcular", "label": "Küskün Aykutçular", "importance": 2 },
+              {
+                "id": "sad-edit-tayfa",
+                "label": "Sad Edit Tayfa",
+                "importance": 3,
+                "children": [
+                  { "id": "uefa-yari-final-edebiyatcilari", "label": "UEFA Yarı Final Edebiyatçıları", "importance": 2 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tribun-tayfasi",
+        "label": "Tribün Tayfası",
+        "importance": 5,
+        "category": "stands",
+        "children": [
+          { "id": "sercan-gorgecciler", "label": "Sercan Görgeççiler", "importance": 2 },
+          { "id": "kfyliler", "label": "KFY'liler", "importance": 2 },
+          { "id": "unifebliler", "label": "UNİFEB'liler", "importance": 2 },
+          { "id": "localcilar", "label": "Localcılar", "importance": 2 },
+          { "id": "maribor-lobisi", "label": "Maribor Lobisi", "importance": 2 },
+          { "id": "icerik-calan-insta-bocekleri", "label": "İçerik Çalan Insta Böcekleri", "importance": 2 },
+          { "id": "gaziantep-macindan-sonra-feneri-birakanlar", "label": "Gaziantep Maçından Sonra Feneri Bırakanlar", "importance": 2 },
+          {
+            "id": "utgliler",
+            "label": "UTG'liler",
+            "importance": 3,
+            "children": [
+              { "id": "ali-koc-dusmani-utgliler", "label": "Ali Koç Düşmanı UTG'liler", "importance": 2 }
+            ]
+          },
+          {
+            "id": "gfbliler",
+            "label": "GFB'liler",
+            "importance": 3,
+            "children": [
+              { "id": "aziz-dusmani-gfbliler", "label": "Aziz Düşmanı GFB'liler", "importance": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ali-senciler",
+        "label": "Ali Şenciler",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "sukru-saracoglucular", "label": "Şükrü Saraçoğlucular", "importance": 2 },
+          { "id": "mehmetcik-basriler", "label": "Mehmetçik Basriler", "importance": 2 },
+          { "id": "can-bartucular", "label": "Can Bartucular", "importance": 2 },
+          { "id": "lefterciler", "label": "Lefterciler", "importance": 2 },
+          { "id": "faruk-ilgazcilar", "label": "Faruk Ilgazcılar (Dinozorbahçeliler)", "importance": 2 },
+          { "id": "fosilbahceliler", "label": "Fosilbahçeliler", "importance": 2 }
+        ]
+      },
+      {
+        "id": "mehmet-ali-aydinlar-lobisi",
+        "label": "Mehmet Ali Aydınlar Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "acibadem-lobisi", "label": "Acıbadem Lobisi", "importance": 2 }
+        ]
+      },
+      {
+        "id": "acun-lobisi",
+        "label": "Acun Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "aziz-gelince-hull-cityye-gecenler", "label": "Aziz Yıldırım Gelince Feneri Bırakıp Hull City'ye Geçenler", "importance": 3 },
+          { "id": "ingiliz-kardescanlar", "label": "İngiliz Kardeşcanlar", "importance": 2 },
+          { "id": "survivor-izleyenler", "label": "Survivor İzleyenler", "importance": 2 },
+          { "id": "hull-cityciler", "label": "Hull Cityciler", "importance": 3 },
+          { "id": "kuskun-roseniorcular", "label": "Küskün Roseniorcular", "importance": 2 },
+          { "id": "sergej-jakirovicciler", "label": "Sergej Jakirovicçiler", "importance": 2 },
+          { "id": "aziz-dusmani-acuncular", "label": "Aziz Düşmanı Acuncular", "importance": 2 },
+          { "id": "taliscacilar", "label": "Taliscacılar", "importance": 2 },
+          { "id": "kisa-pas-fetisistleri", "label": "Defanstan Kısa Pasla Çıkma Fetişistleri", "importance": 3 }
+        ]
+      },
+      {
+        "id": "hakan-safi-lobisi",
+        "label": "Hakan Safi Lobisi",
+        "importance": 5,
+        "category": "management",
+        "children": [
+          { "id": "sonradan-safici-olanlar", "label": "Sonradan Safici Olanlar", "importance": 2 },
+          { "id": "greenwood-tayfa", "label": "Greenwood Tayfa", "importance": 2 },
+          { "id": "farioliciler", "label": "Farioliçiler", "importance": 2 },
+          { "id": "conteciler", "label": "Conteciler", "importance": 2 },
+          { "id": "azize-karsi-safici-olanlar", "label": "Azize Karşı Safici Olanlar", "importance": 2 },
+          { "id": "luis-suarez-lobisi", "label": "Luis Suarez Lobisi", "importance": 2 },
+          { "id": "safiporttan-fonlananlar", "label": "Safiporttan Fonlananlar", "importance": 2 },
+          { "id": "hoca-yoklugundan-asensiocu-olanlar", "label": "Hoca Yokluğundan Asensiocu Olanlar", "importance": 2 }
+        ]
+      }
+    ]
+  },
+  "floating": [
+    {
+      "id": "bocek-videosu-yapanlar",
+      "label": "Böcek Videosu Yapanlar",
+      "importance": 2,
+      "category": "micro",
+      "description": "Bağımsız camia.",
+      "children": []
+    }
+  ],
+  "links": [
+    { "source": "gs-hocasi-isteyenler", "target": "manciniciler" },
+    { "source": "alman-ekoluculer", "target": "terziciler" },
+    { "source": "camia-evladicilar", "target": "alexciler" },
+    { "source": "camia-evladicilar", "target": "aureliocular" },
+    { "source": "brezilya-lobisi", "target": "tuncaycilar" },
+    { "source": "brezilya-lobisi", "target": "roberto-carloscular" },
+    { "source": "brezilya-lobisi", "target": "zicocular" },
+    { "source": "camia-evladicilar", "target": "stoilovcular" },
+    { "source": "hirvat-lobisi", "target": "hakan-kelesciler" }
+  ]
+}

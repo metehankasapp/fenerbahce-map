@@ -1,0 +1,24 @@
+.node image,
+.node circle {
+  filter: drop-shadow(0 3px 2px #0b1b2810);
+  transition: transform 180ms, filter 180ms;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.node rect {
+  filter: none;
+}
+
+.node.active rect,
+.node:hover rect {
+  filter: drop-shadow(0 5px 4px #0b1b2820);
+}
+
+.node.active image,
+.node:hover image,
+.node.active circle,
+.node:hover circle {
+  filter: drop-shadow(0 10px 8px #0b1b2830);
+  transform: scale(1.1);
+}
