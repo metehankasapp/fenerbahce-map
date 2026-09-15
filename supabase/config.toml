@@ -1,5 +1,7 @@
 project_id = "fenerbahce-map"
 
+[auth]
+enable_anonymous_sign_ins = true
+
 [functions.community-vote]
 verify_jwt = true
-
