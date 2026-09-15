@@ -44,7 +44,7 @@ export const categoryLabels: Record<Category, string> = {
   scout: "Scout & Taktik",
   nostalgia: "Nostalji",
   media: "Medya & Edit",
-  micro: "Mikro Camialar",
+  micro: "Mikro Lobiler",
 };
 
 function flattenTree(node: TreeNode, parent?: string, inheritedCategory?: Category): MapNode[] {
@@ -56,7 +56,7 @@ function flattenTree(node: TreeNode, parent?: string, inheritedCategory?: Catego
   const normalized: MapNode = {
     ...current,
     category,
-    description: current.description ?? `${node.label} camiası.`,
+    description: current.description ?? `${node.label} lobisi.`,
     ...(parent ? { parent } : {}),
   };
 
@@ -75,7 +75,7 @@ const rawMapNodes: MapNode[] = [
     parent: "fenerbahce",
     importance: 4,
     category: "nostalgia",
-    description: "Eski futbol ekollerini ve tecrübeli teknik adamları savunan camia.",
+    description: "Eski futbol ekollerini ve tecrübeli teknik adamları savunan lobi.",
   },
   {
     id: "futuristler",
@@ -83,7 +83,7 @@ const rawMapNodes: MapNode[] = [
     parent: "fenerbahce",
     importance: 4,
     category: "social",
-    description: "Fenerbahçe'nin geleceğine yönelik fikirler etrafında oluşan camia.",
+    description: "Fenerbahçe'nin geleceğine yönelik fikirler etrafında oluşan lobi.",
   },
 ];
 

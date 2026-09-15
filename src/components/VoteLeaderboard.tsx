@@ -54,7 +54,7 @@ export function VoteLeaderboard() {
       <b>{total}</b><span>oy · sıralama</span>
     </button>
     {open && <section className="ranking-panel">
-      <header><h2>Camia sıralaması</h2><button onClick={() => setOpen(false)} aria-label="Kapat">×</button></header>
+      <header><h2>Lobi sıralaması</h2><button onClick={() => setOpen(false)} aria-label="Kapat">×</button></header>
       {ranking.length ? <ol>{ranking.map((node, index) => <li key={node.id}><button onClick={() => focusCamia(node.id)}><i>{index + 1}</i><span>{node.label}</span><b>{node.votes}</b></button></li>)}</ol> : <p>Henüz oy kullanılmadı.</p>}
     </section>}
   </div>;

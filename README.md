@@ -1,6 +1,6 @@
-# Fenerbahçe Camia Haritası
+# Fenerbahçe Lobi Haritası
 
-Fenerbahçe etrafındaki camiaları, isimleri ve aralarındaki ilişkileri keşfetmek için hazırlanmış açık kaynaklı interaktif harita.
+Fenerbahçe etrafındaki lobileri, isimleri ve aralarındaki ilişkileri keşfetmek için hazırlanmış açık kaynaklı interaktif harita.
 
 Canlı site: [buyuk-fenerbahce-camiasi.vercel.app](https://buyuk-fenerbahce-camiasi.vercel.app)
 
@@ -16,7 +16,7 @@ Uygulama `http://localhost:3000` adresinde açılır. Supabase değişiklikleri 
 
 ## Katkı
 
-Issue açabilir veya pull request gönderebilirsiniz. Camia verileri [src/data/fenerbahce-map.json](src/data/fenerbahce-map.json) dosyasındadır.
+Issue açabilir veya pull request gönderebilirsiniz. Lobi verileri [src/data/fenerbahce-map.json](src/data/fenerbahce-map.json) dosyasındadır.
 
 ## İletişim
 

@@ -95,10 +95,10 @@ export function CommunityVote({ communityId, label }: { communityId: string; lab
     <section className="community-vote">
       <div><strong>{state.count}</strong><span>oy kullanıldı</span></div>
       <button disabled={loading || votedHere} onClick={vote}>
-        {loading ? "Kontrol ediliyor…" : votedHere ? "Bu camiaya oy verdin ✓" : "Bu camiaya oy ver"}
+        {loading ? "Kontrol ediliyor…" : votedHere ? "Bu lobiye oy verdin ✓" : "Bu lobiye oy ver"}
       </button>
       {error && <small role="alert">{error}</small>}
-      {votedHere && <small>{label} seçimin bu cihaz için kaydedildi.</small>}
+      {votedHere && <small>{label} oyun bu cihaz için kaydedildi.</small>}
     </section>
   );
 }

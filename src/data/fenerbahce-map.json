@@ -5,14 +5,14 @@
     "label": "Fenerbahçe",
     "importance": 5,
     "category": "root",
-    "description": "1907’den bugüne camianın merkezi.",
+    "description": "1907’den bugüne lobilerin merkezi.",
     "children": [
       {
         "id": "duz-fenerbahceliler",
         "label": "Düz Fenerbahçeliler",
         "importance": 4,
         "category": "nostalgia",
-        "description": "Fenerbahçe camiasının ana kollarından biri.",
+        "description": "Fenerbahçe lobilerinin ana kollarından biri.",
         "children": []
       },
       {
@@ -20,7 +20,7 @@
         "label": "Hacı İsmail Kartalcılar",
         "importance": 5,
         "category": "coaches",
-        "description": "İsmail Kartal etrafında oluşan ana camia.",
+        "description": "İsmail Kartal etrafında oluşan ana lobi.",
         "children": [
           {
             "id": "oldschool-isocular",
@@ -77,7 +77,7 @@
         "label": "Emre Bellocular",
         "importance": 2,
         "category": "coaches",
-        "description": "Fenerbahçe merkezine doğrudan bağlı camia.",
+        "description": "Fenerbahçe merkezine doğrudan bağlı lobi.",
         "children": []
       },
       {
@@ -85,7 +85,7 @@
         "label": "Portekiz Lobisi",
         "importance": 5,
         "category": "countries",
-        "description": "Portekiz futbol ekolü etrafında oluşan ana camia.",
+        "description": "Portekiz futbol ekolü etrafında oluşan ana lobi.",
         "children": [
           { "id": "conceicaocular", "label": "Conceiçaocular", "importance": 2 },
           {
@@ -134,7 +134,7 @@
         "label": "Hollanda Lobisi",
         "importance": 5,
         "category": "countries",
-        "description": "Hollanda futbol ekolü etrafında oluşan ana camia.",
+        "description": "Hollanda futbol ekolü etrafında oluşan ana lobi.",
         "children": [
           { "id": "cocucular", "label": "Cocucular", "importance": 2 },
           { "id": "koemancilar", "label": "Koemancılar", "importance": 2 },
@@ -148,7 +148,7 @@
         "label": "Balkan Lobisi",
         "importance": 5,
         "category": "countries",
-        "description": "Balkan futbol ekolü etrafında oluşan ana camia.",
+        "description": "Balkan futbol ekolü etrafında oluşan ana lobi.",
         "children": [
           {
             "id": "yeni-nesil-balkancilar",
@@ -216,7 +216,7 @@
         "label": "Ersuncular",
         "importance": 5,
         "category": "coaches",
-        "description": "Ersun Yanal etrafında oluşan ana camia.",
+        "description": "Ersun Yanal etrafında oluşan ana lobi.",
         "children": [
           { "id": "presbahceliler", "label": "Presbahçeliler", "importance": 3 },
           { "id": "chobani-orgutu", "label": "Chobani Örgütü", "importance": 3 },
@@ -1042,7 +1042,7 @@
       "label": "Böcek Videosu Yapanlar",
       "importance": 2,
       "category": "micro",
-      "description": "Bağımsız camia.",
+      "description": "Bağımsız lobi.",
       "children": []
     }
   ],
