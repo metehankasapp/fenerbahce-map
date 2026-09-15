@@ -65,7 +65,7 @@ export function CamiaMap(){
     const nodes=createLayout(mapNodes);
     const byId=new Map(nodes.map(n=>[n.id,n])); positions.current=byId;
     const links:SimLink[]=mapLinks.flatMap(l=>{const source=byId.get(l.source),target=byId.get(l.target);return source&&target?[{source,target,tree:target.parent===source.id}]:[];});
-    const link=linksLayer.selectAll("path").data(links).join("path").attr("class",d=>`edge ${d.tree?"tree-link":"cross-link"}`).attr("fill","none").attr("marker-end",d=>d.tree?"url(#edge-arrow)":null).attr("stroke-width",d=>((d.target as SimNode).importance>=4?2.8:1.7));
+    const link=linksLayer.selectAll("path").data(links).join("path").attr("class",d=>`edge ${d.tree?"tree-link":"cross-link"}`).attr("fill","none").attr("marker-end",d=>d.tree?"url(#edge-arrow)":null).attr("stroke-width",d=>((d.target as SimNode).importance>=4?4.6:3.2));
     const node=nodesLayer.selectAll<SVGGElement,SimNode>("g").data(nodes).join("g").attr("class",d=>`node node-${d.importance}`).attr("tabindex",0).attr("role","button").attr("aria-label",d=>d.label);
     node.filter(d=>d.category!=="root").append("rect").attr("x",d=>-d.width/2).attr("y",d=>-d.height/2).attr("width",d=>d.width).attr("height",d=>d.height).attr("rx",d=>d.height/2).attr("fill","#fbfaf5").attr("stroke",d=>colors[d.category]).attr("stroke-width",d=>d.importance>=4?3:1.7);
     node.filter(d=>d.category==="root").append("circle").attr("r",200).attr("fill","#fff").attr("stroke","#ffed00").attr("stroke-width",10);

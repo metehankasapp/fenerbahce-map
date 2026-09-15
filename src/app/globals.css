@@ -131,13 +131,13 @@ kbd {
   cursor: grabbing;
 }
 .edge {
-  stroke: #244a82;
-  stroke-opacity: 0.42;
+  stroke: #173f78;
+  stroke-opacity: 0.68;
   transition: opacity 0.18s, stroke-width 0.18s;
 }
 .edge.cross-link {
   stroke-dasharray: 8 11;
-  stroke-opacity: 0.18;
+  stroke-opacity: 0.34;
 }
 .edge.active {
   stroke: #0c2f70;
