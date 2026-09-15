@@ -76,8 +76,10 @@ export function CommunityVote({ communityId, label }: { communityId: string; lab
       headers: { "x-device-token": getOrCreateDeviceToken() },
     });
 
-    if (voteError) setError("Oy kaydedilemedi. Bu cihaz daha önce oy kullanmış olabilir.");
-    else setState({ communityId: data.communityId, count: data.count });
+    if (voteError) {
+      console.error("Community vote failed", voteError);
+      setError("Oy kaydedilemedi. Lütfen tekrar dene.");
+    } else setState({ communityId: data.communityId, count: data.count });
     setLoading(false);
   }
 

@@ -2,7 +2,7 @@
 
 Fenerbahçe etrafındaki camiaları, isimleri ve aralarındaki ilişkileri keşfetmek için hazırlanmış açık kaynaklı interaktif harita.
 
-Canlı site: [fenerbahce-map.vercel.app](https://fenerbahce-map.vercel.app)
+Canlı site: [buyuk-fenerbahce-camiasi.vercel.app](https://buyuk-fenerbahce-camiasi.vercel.app)
 
 ## Geliştirme
 
